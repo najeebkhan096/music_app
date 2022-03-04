@@ -129,7 +129,7 @@ class _Play_Now_ScreenState extends State<Play_Now_Screen> {
 
   @override
   Widget build(BuildContext context) {
-    print("ABC  song"+widget.current_index.toString());
+    print("ABCdee  song"+widget.current_index.toString());
     print("DEF"+current_song_index.toString());
     print("arjun"+rmxAudioPlayer.currentTrack.trackId.toString());
     return Scaffold(
